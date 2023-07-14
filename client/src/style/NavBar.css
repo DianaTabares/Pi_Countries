@@ -1,0 +1,20 @@
+.nav-container {
+  background-color: rgba(255, 255, 255, 0.746);
+  display: flex;
+  align-items: center;
+  width: 900%;
+  z-index: 100;
+}
+
+.img-container img {
+  width: 10rem;
+  margin: 2px;
+}
+
+.link-container {
+  display: flex;
+  width: 16rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40.5vw;
+}

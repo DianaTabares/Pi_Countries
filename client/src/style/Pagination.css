@@ -1,0 +1,27 @@
+.paginacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  width: 30px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+span {
+  margin: 0 5px;
+}

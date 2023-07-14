@@ -1,0 +1,76 @@
+.detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.paises-detalle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.505);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(126, 86, 246);
+  width: 200%;
+  margin-left: 700px;
+  border-radius: 70px;
+}
+
+.titulo-pais {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.imagen-pais {
+  width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 255);
+  font-size: 28pt;
+}
+
+.detalle-paises {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: rgb(255, 0, 0);
+}
+
+span {
+  font-weight: bold;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgba(0, 0, 250);
+  border-radius: 10px;
+  box-shadow: 5px 5px 12px rgb(13, 13, 231), -5px -5px 12px #fdfafa;
+}
+button:hover {
+  background: rgba(192, 248, 247, 0.539);
+  border: 1px solid white;
+  box-shadow: 4px 4px 12px hsl(0, 33%, 99%), -4px -4px 12px #fdfafa;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 2px 2px 12px #c5f5fd, -2px -2px 12px #d2fdff;
+}

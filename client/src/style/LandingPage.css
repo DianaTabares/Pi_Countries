@@ -1,0 +1,37 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 150px;
+}
+.imagen {
+  width: 700px;
+  height: auto;
+  margin-bottom: 20px;
+  margin-left: 500px;
+}
+.btn {
+  color: rgba(0, 0, 250);
+  padding: 26px 38px;
+  margin: 40px 300px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.534);
+  border: rgb(0, 0, 0);
+  box-shadow: 5px 5px 12px rgb(13, 13, 231), -5px -5px 12px #fdfafa;
+  margin-left: 750px;
+}
+
+.btn:hover {
+  background: rgba(192, 248, 247, 0.539);
+  border: 1px solid white;
+  box-shadow: 4px 4px 12px hsl(0, 33%, 99%), -4px -4px 12px #fdfafa;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: 2px 2px 12px #c5f5fd, -2px -2px 12px #d2fdff;
+}
